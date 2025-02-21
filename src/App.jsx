@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Matches from "./pages/Matches";
 import Players from "./pages/Players";
 import Contact from "./pages/Contact";
+import Merch from "./pages/Merch";
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Route path="/matches" element={<Matches />} />
         <Route path="/players" element={<Players />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/merch" element={<Merch />} />
       </Routes>
     </Router>
   );

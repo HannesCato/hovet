@@ -8,6 +8,7 @@ const Navbar = () => {
         <li><Link to="/matches">Matcher</Link></li>
         <li><Link to="/players">Spelare</Link></li>
         <li><Link to="/contact">Kontakt</Link></li>
+        <li><Link to="/Merch">Merch</Link></li>
       </ul>
     </nav>
   );
